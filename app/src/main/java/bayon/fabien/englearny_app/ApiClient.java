@@ -8,7 +8,7 @@ public class ApiClient{
     private static Retrofit getRetrofit() {
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://serveur1.arras-sio.com/symfony4-4060/englearny/public/api/")
+                .baseUrl("http://serveur1.arras-sio.com/symfony4-4061/englearny/public/api/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

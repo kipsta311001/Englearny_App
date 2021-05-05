@@ -36,5 +36,10 @@ public class MainActivity extends AppCompatActivity {
             startActivity(testIntent);
         }
 
-}
+    }
+
+    public void Liste_utilisateurs(View v){
+        Intent utilisateurIntent = new Intent(this, UtilisateurActivity.class);
+        startActivity(utilisateurIntent);
+    }
 }

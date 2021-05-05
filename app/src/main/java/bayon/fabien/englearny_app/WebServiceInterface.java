@@ -9,6 +9,9 @@ public interface WebServiceInterface {
         @GET("tests.json")
         Call<Tests[]> getListTests();
 
+        @GET("utilisateurs.json")
+        Call<Utilisateurs[]> getListUtilisateurs();
+
 
 
 }
